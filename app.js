@@ -10,7 +10,7 @@ app.set("view engine", "ejs")
 
 app.get('/', (req,res) => {
   // res.send("<h1>Hello World!</h1>")
-  res.render("index")
+  res.render("index", {message:'Hello!'})
 })
 
 app.get('/about', (req,res) => {

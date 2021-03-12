@@ -1,3 +1,19 @@
 body{
   background-color: hotpink;
 }
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+  background-color: peachpuff;
+}
+
+input{
+  margin: 1rem;
+  font-size: 2rem;
+}

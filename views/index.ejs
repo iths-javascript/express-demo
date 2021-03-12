@@ -8,9 +8,18 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <h1>Hello World from EJS</h1>
-  <p><%= message %> </p>
+  <form action="/albums" method="GET">
+    <input type="text" name="grillkorv" placeholder="Search Terms">
+    <button>Submit</button>
+  </form>
+  
+  <form action="/albums" method="POST">
+    <input type="text" name="title" placeholder="Title">
+    <input type="text" name="artist" placeholder="Artist">
+    <input type="number" name="numTracks" placeholder="Number of tracks">
+    <input type="submit" value="Create Album">
+  </form>
 
-  <a href="/albums/omg"><button>About</button></a>
+
 </body>
 </html>
